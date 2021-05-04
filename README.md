@@ -1,6 +1,10 @@
-Live demo: https://djordje.rs.ba/top10/
+
 
 # How to test the app
+
+- Live demo: https://djordje.rs.ba/top10/
+
+Or...
 
 - Clone repository into local folder
 - Open terminal and run: **npm install **
