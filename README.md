@@ -7,7 +7,7 @@
 Or...
 
 - Clone repository into local folder
-- Open terminal and run: **npm install **
+- Open terminal and run: **npm install**
 - To start the project, run: **npm start** (http://localhost:3000)
 
 - For production run **npm run build**
