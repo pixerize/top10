@@ -5,7 +5,8 @@ import ResultHome from './ResultHome'
 import PopupHome from './PopupHome'
 import axios from "axios";
 
-const FEATURED_TVSHOW_API = "https://api.themoviedb.org/3/discover/tv?sort_by=vote_average.desc&api_key=5d097e9689874a407b36b741622f1f6c&page=1";
+//const FEATURED_TVSHOW_API = "https://api.themoviedb.org/3/discover/tv?sort_by=vote_average.desc&api_key=5d097e9689874a407b36b741622f1f6c&page=1";
+const FEATURED_TVSHOW_API = "https://api.themoviedb.org/3/tv/top_rated?api_key=5d097e9689874a407b36b741622f1f6c&language=en-US&page=1";
 // const SEARCH_TVSHOW_API = "https://api.themoviedb.org/3/search/tv?&api_key=5d097e9689874a407b36b741622f1f6c&query="
 // const SEARCH_MOVIE_API = "https://api.themoviedb.org/3/search/movie?&api_key=5d097e9689874a407b36b741622f1f6c&query="
 const SEARCH_POPUP_BASE = "https://api.themoviedb.org/3/tv/"
