@@ -8,7 +8,8 @@ import axios from "axios";
 
 
 // const FEATURED_MOVIE_API = "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=5d097e9689874a407b36b741622f1f6c&page=1";
-const FEATURED_MOVIE_API = "https://api.themoviedb.org/3/discover/movie?sort_by=vote_average.desc&api_key=5d097e9689874a407b36b741622f1f6c&page=1";
+//const FEATURED_MOVIE_API = "https://api.themoviedb.org/3/discover/movie?sort_by=vote_average.desc&api_key=5d097e9689874a407b36b741622f1f6c&page=1";
+const FEATURED_MOVIE_API = "https://api.themoviedb.org/3/movie/top_rated?api_key=5d097e9689874a407b36b741622f1f6c&language=en-US&page=1";
 const SEARCH_POPUP_BASE = "https://api.themoviedb.org/3/movie/"
 const SEARCH_POPUP_KEY = "?api_key=5d097e9689874a407b36b741622f1f6c"
 const VIDEO_BASE_API = "https://api.themoviedb.org/3/movie/"
